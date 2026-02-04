@@ -1,0 +1,26 @@
+<!-- Header -->
+<header class="header">
+  <h1>Students</h1>
+</header>
+
+<!-- Content -->
+<main class="container">
+  <!-- Title row -->
+  <div class="list-header">
+    <h2>List of Students</h2>
+    <button class="add-btn" (click)="goToCreateStudent()">Add student</button>
+  </div>
+
+  <!-- Student cards -->
+  <article class="card" *ngFor="let student of students; let i = index">
+    <div class="card-info">
+      <h3>{{ student.name }}</h3>
+      <p>Course</p>
+      <p>Year Level</p>
+    </div>
+
+    <button class="delete-btn" (click)="deleteStudent(i)">
+      delete
+    </button>
+  </article>
+</main>
