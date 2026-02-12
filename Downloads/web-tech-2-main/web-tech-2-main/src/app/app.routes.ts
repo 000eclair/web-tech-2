@@ -7,3 +7,4 @@ export const routes: Routes = [
   { path: 'create-student', component: CreateStudentComponent },
   { path: '', redirectTo: 'students', pathMatch: 'full' }
 ];
+

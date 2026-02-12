@@ -1,4 +1,4 @@
-/* Header */
+
 .header {
   background: #eee;
   padding: 20px;
@@ -6,13 +6,13 @@
   font-weight: bold;
 }
 
-/* Main container */
+
 .container {
   max-width: 600px;
   margin: 30px auto;
 }
 
-/* List title row */
+
 .list-header {
   display: flex;
   justify-content: space-between;
@@ -30,7 +30,7 @@
   cursor: pointer;
 }
 
-/* Student card */
+
 .card {
   background: #e0e0e0;
   padding: 15px;
@@ -41,7 +41,7 @@
   align-items: center;
 }
 
-/* Card text */
+
 .card-info h3 {
   margin: 0 0 5px 0;
 }
@@ -51,7 +51,6 @@
   font-size: 13px;
 }
 
-/* Delete button */
 .delete-btn {
   padding: 4px 10px;
   font-size: 11px;
